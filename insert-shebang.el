@@ -278,7 +278,6 @@ Calls function `insert-shebang-get-extension-and-insert'.  With argument as
               (insert-shebang-get-extension-and-insert (original-buffer-name))))))
     (insert-shebang-get-extension-and-insert (original-buffer-name))))
 
-;;;###autoload(add-hook 'find-file-hook 'insert-shebang)
 
 (provide 'insert-shebang)
 ;;; insert-shebang.el ends here
